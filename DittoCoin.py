@@ -163,6 +163,8 @@ def replace_chain():
     else:
         response={'message':'All good all nodes have same chain',
                   'chain':blockchain.chain}
+
+#host app using postman on local network       
 app.run(host ='0.0.0.0',port =5000)   
 
     
